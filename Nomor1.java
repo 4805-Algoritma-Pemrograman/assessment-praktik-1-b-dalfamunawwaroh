@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Nomor1{
     public static void main(String[] args){
         
-        double penjualanSalesman = 0;
+        int penjualanSalesman = 0;
         double komisi;
         double komisiYangDidapatkan;
-        double totalPenjualanSalesman;
+        int totalPenjualanSalesman;
 
 
         Scanner input = new Scanner(System.in);
@@ -23,8 +23,9 @@ public class Nomor1{
             komisiYangDidapatkan = 0.16 * komisi;
             
 
-            System.out.println("Total Penjualan Salesman :" + totalPenjualanSalesman);
-            System.out.println("Komisi Yang Didapatkan :" + komisiYangDidapatkan);
+            System.out.println("Total Penjualan Salesman : " + totalPenjualanSalesman);
+            System.out.println("Komisi Yang Didapatkan = " + komisiYangDidapatkan);
       
     }
+    
 }
