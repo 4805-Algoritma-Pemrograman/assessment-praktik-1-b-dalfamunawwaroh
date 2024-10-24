@@ -32,9 +32,9 @@ public class Nomor2{
                 if (pilihan.equalsIgnoreCase("N")) {
                     break;
         }
-        double biayaMenginap = lamaMenginap * malam
-        double biayaPelayanan = malam * pelayanan
-        double totalPendapatan = biayaMenginap + biayaPelayanan
+        double biayaMenginap = lamaMenginap * malam;
+        double biayaPelayanan = malam * pelayanan;
+        double totalPendapatan = biayaMenginap + biayaPelayanan;
 
         System.out.println("totalPendapatan :" + Total Pendapatan);
         io.close();
